@@ -317,6 +317,11 @@ async def resume(ctx):
             await ctx.send('Not Possible at the Moment')
     else:
         await ctx.send('Nice Try, but you must be in the Voice Channel')
+        
+@bot.command()
+async def support(ctx):
+    """Type this if you need support with the bot"""
+    await ctx.send("If there is some problem with the bot, please contact your server admin or oo_emperor#9843 to get support")
 
         
 @bot.event
